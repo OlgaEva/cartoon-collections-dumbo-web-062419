@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 def roll_call_dwarves(array)
     array.each_with_index do |names, index|
+=======
+def roll_call_dwarves(dwarves)
+    dwarves = ["Bashful", "Doc", "Dopey", "Grumpy", "Happy", "Sleepy", "Sneezy"]
+    dwarves.each_with_index do |names, index|
+>>>>>>> 9570997a759eafd366c062111a2c8e93d7868e8e
     puts "#{index+1}. #{names}"
     end
 end
